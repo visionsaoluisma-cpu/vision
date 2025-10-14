@@ -1,0 +1,7 @@
+numpy
+Pillow
+opencv-python
+dlib
+face_recognition
+kivy[full]
+bcrypt
