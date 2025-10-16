@@ -5,7 +5,7 @@ package.domain = org.local
 source.dir = .
 source.include_exts = py,kv,png,jpg,jpeg,ttf,ini
 version = 0.1.0
-requirements = python3,kivy,opencv-python,Pillow,numpy,bcrypt,face_recognition,dlib
+requirements = python3,kivy,Pillow,numpy,bcrypt
 orientation = portrait
 fullscreen = 0
 
