@@ -33,7 +33,7 @@ jobs:
         run: |
           mkdir -p artifacts
           apk_file=$(ls -1 bin/*.apk | head -n1)
-          cp "$apk_file" artifacts/vision-$(date +%Y%m%d%H%M)-debug.apk
+          cp "$apk_file" "artifacts/vision-$(date +%Y%m%d%H%M)-debug.apk"
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
